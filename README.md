@@ -1,8 +1,10 @@
 **Digital Input to Tactile Feedback Project**
 **Project Overview**
+
 This project aims to create a cost-effective and accessible device that translates digital text into tactile Braille feedback for visually impaired individuals. By leveraging an ESP32 microcontroller, servo motors, and a real-time processing system, the device enhances Braille literacy and bridges the gap between digital content and tactile learning.
 
 **Key Features**
+
 Real-Time Text-to-Braille Conversion:
 Reads text files from local storage (SPIFFS) and dynamically converts characters into tactile Braille patterns.
 
@@ -16,6 +18,7 @@ Energy Efficiency:
 Designed for low power consumption, increasing usability and sustainability.
 
 **System Architecture**
+
 Components Used
 ESP32: Central controller for processing and motor control.
 Servo Motors: Three servos actuating Braille dots.
@@ -27,6 +30,7 @@ Actuation: Servo motors actuate the Braille dots based on the mapped pattern.
 Feedback: The system provides tactile feedback in real-time for Braille reading.
 
 **Setup Instructions**
+
 Hardware Requirements:
 
 ESP32 board
